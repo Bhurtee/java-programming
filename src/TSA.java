@@ -19,7 +19,7 @@ public class TSA {
         this.age = age;
         this.skinColor = skinColor;
         this.isOld = isOld;
-        
+
     }
 
 
