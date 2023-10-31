@@ -3,6 +3,11 @@ public class TSA {
 
     private int age;
 
-    private String skincolor;
+    private String skinColor;
+
+    private boolean isOld;
+
+    private float accountBalance;
+    
 
 }
