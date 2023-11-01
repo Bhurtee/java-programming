@@ -8,8 +8,8 @@ public class MethodClassTest {
     MethodClass methodClass = new MethodClass();
 
     @Test
-    public void test_addTwoNumbers(){
-        int result = methodClass.addTwoNumbers(40, 8);
-        Assertions.assertEquals(result, 48);
+    public void test_subtractTwoNumbers(){
+        int result = methodClass.subtractTwoNumbers(40, 8);
+        Assertions.assertEquals(result, 32);
     }
 }
