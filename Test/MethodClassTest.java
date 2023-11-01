@@ -8,8 +8,8 @@ public class MethodClassTest {
     MethodClass methodClass = new MethodClass();
 
     @Test
-    public void test_divideTwoNumbers(){
-        int result = methodClass.divideTwoNumbers(40, 8);
-        Assertions.assertEquals(result, 5);
+    public void test_multiplyTwoNumbers(){
+        int result = methodClass.multiplyTwoNumbers(40, 8);
+        Assertions.assertEquals(result, 320);
     }
 }
