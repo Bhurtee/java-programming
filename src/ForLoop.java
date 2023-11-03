@@ -6,11 +6,11 @@ public class ForLoop {
 //    give it a range; where the loop ends
 //    loop should increase from start to finish
 
-       for (int i = 1; i <= 20; i++){
-           if (i % 2 == 0){
-               System.out.println(i);
+        int sum = 0;
 
-           }
-       }
+        for (int i = 50; i <=100; i++){
+          sum = sum + 1;
+            System.out.println("The sum is: " + sum);
+               }
         }
     }
