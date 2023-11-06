@@ -11,9 +11,9 @@ public class Tutorial2 {
             int firstNumberVariable = input.nextInt();
 
             System.out.println("Enter second number: ");
-            int secondNumberVvariable = input.nextInt();
+            int secondNumberVariable = input.nextInt();
 
-            if (firstNumberVariable > secondNumberVvariable) {
+            if (firstNumberVariable > secondNumberVariable) {
                 System.out.println("First number is the largest");
             }
             else{
